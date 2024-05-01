@@ -2,6 +2,12 @@ function ProjectCard() {
     return (
         <>
             <div>
+                <h1>CarChronicle</h1>
+                <h2>April 2024</h2>
+                <a href="https://github.com/Whoami-Voyager/CarChronicle" target="_blank">GitHub Link</a>
+                <p>Description</p>
+            </div>
+            <div>
                 <h1>TechHistoria</h1>
                 <h2>March 2024</h2>
                 <a href="https://whoami-voyager.github.io/TechHistoria/" target="_blank">Deployed Website</a>
