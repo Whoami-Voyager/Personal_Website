@@ -2,4 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'AppleGaramond';
+    src: url(/AppleGaramond.ttf);
+}
 
+@font-face {
+    font-family: 'AppleMotter';
+    src: url(/MotterTekturaNormal.ttf);
+}
+
+@font-face {
+    font-family: 'AppleUnicode';
+    src: url(/unicode.compacta.ttf);
+}
+
+@layer base {
+    html {
+      font-family: "AppleGaramond", system-ui, sans-serif;
+      background-color: #F4EBC3;
+    }
+  }
+  
