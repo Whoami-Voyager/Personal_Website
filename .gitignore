@@ -1,0 +1,28 @@
+# Dependency directories
+node_modules/
+.pnpm-store/
+
+# Output directories
+/dist/
+/.cache/
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment variables file
+.env
+
+# macOS metadata files
+.DS_Store
+
+# Log files
+npm-debug.log*
+
+# Editor directories and files
+/.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
