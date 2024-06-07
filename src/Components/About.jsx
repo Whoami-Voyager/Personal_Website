@@ -5,8 +5,9 @@ function About() {
     return (
         <>
             <div className="flex flex-row">
-                <h1 className="m-12 text-center text-4xl w-1/5">Jonathan McIntosh</h1>
-                <div className="flex flex-col w-full m-6">
+                <h1 className="m-12 select-none text-center text-4xl w-1/5">Jonathan McIntosh</h1>
+                <img className="h-48 m-2" src="/macintosh.png" />
+                <div className="flex flex-col skew-x-12 w-full m-6">
                     <div className="block m-0.5 bg-apple h-5 w-full"></div>
                     <div className="block m-0.5 bg-ripeMango h-5 w-full"></div>
                     <div className="block m-0.5 bg-princetonOrange h-5 w-full"></div>
