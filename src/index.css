@@ -12,6 +12,11 @@
     src: url(/MotterTekturaNormal.ttf);
 }
 
+@font-face {
+    font-family: 'CooperFive';
+    src: url(/CooperFiveOpti-Black.otf);
+}
+
 @media (min-width: 748px) {
     html, body, #root {
         height: 100%

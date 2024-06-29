@@ -14,11 +14,13 @@ export default {
         plum: '#963D97',
         richElectricBlue: '#009DDC',
         appleBeige: '#F4EBC3',
-        appleAccent: '#69582e'
+        appleAccent: '#69582e',
+        terminalGreen: '#00FF33'
       },
       fontFamily: {
         ThinkDifferent: ['AppleGaramond', 'sans-serif'],
         Retro: ['AppleMotter', 'sans-serif'],
+        Cooper: ['CooperFive', 'sans-serif'],
       },
     },
   },
