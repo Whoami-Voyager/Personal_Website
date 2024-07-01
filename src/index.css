@@ -8,11 +8,6 @@
 }
 
 @font-face {
-    font-family: 'AppleMotter';
-    src: url(/MotterTekturaNormal.ttf);
-}
-
-@font-face {
     font-family: 'CooperFive';
     src: url(/CooperFiveOpti-Black.otf);
 }

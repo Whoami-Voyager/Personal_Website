@@ -19,7 +19,6 @@ export default {
       },
       fontFamily: {
         ThinkDifferent: ['AppleGaramond', 'sans-serif'],
-        Retro: ['AppleMotter', 'sans-serif'],
         Cooper: ['CooperFive', 'sans-serif'],
         ttNorms: ['TTnorms', 'sans-serif']
       },
