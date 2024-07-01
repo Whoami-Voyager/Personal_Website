@@ -24,11 +24,11 @@ function About() {
                 <Link className="text-lg p-2 w-36 hover:text-terminalGreen hover:border-black hover:bg-black hover:scale-105 transition transform duration-100 border-4 border-appleAccent rounded-md text-center m-2" to="/photography">Photography</Link>
             </nav>
             <div className="font-ThinkDifferent bg-appleBeige">
-                <h2 className="font-Cooper text-center p-8 text-xl lg:text-4xl bg-appleBeige select-none">Projects:</h2>
+                <h2 className="font-Cooper text-center p-8 text-3xl md:text-4xl lg:text-5xl bg-appleBeige select-none">Projects:</h2>
                 <ProjectCard />
             </div>
             <div className="font-ThinkDifferent bg-appleBeige p-8">
-                <h2 className="font-Cooper text-center p-8 text-xl lg:text-4xl bg-appleBeige select-none">Skills:</h2>
+                <h2 className="font-Cooper text-center p-8 pt-12 text-3xl md:text-4xl lg:text-5xl bg-appleBeige select-none">Skills:</h2>
                 <div className="flex flex-wrap justify-center gap-6 p-4 text-4xl">
                     <IoLogoJavascript />
                     <FaReact />
@@ -43,7 +43,7 @@ function About() {
                     <FaCamera />
                 </div>
             </div>
-            <h1 className="font-Cooper text-center p-8 text-xl md:pt-16 lg:text-4xl bg-appleBeige select-none">About myself:</h1>
+            <h2 className="font-Cooper text-center p-8 pt-12 text-3xl md:text-4xl lg:text-5xl bg-appleBeige select-none">About myself:</h2>
             <div className="flex flex-col text-center items-center gap-4 lg:gap-12 bg-appleBeige">
                 <p className="p-8 text-xl font-ttNorms">
                     Hello! My name is Jonathan McIntosh, and I am a full stack web developer with a background in photography and videography.<br />
