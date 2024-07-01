@@ -17,6 +17,11 @@
     src: url(/CooperFiveOpti-Black.otf);
 }
 
+@font-face {
+    font-family: 'TTnorms';
+    src: url(/TTNorms-Regular.otf);
+}
+
 @media (min-width: 748px) {
     html, body, #root {
         height: 100%

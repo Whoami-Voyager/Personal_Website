@@ -3,10 +3,10 @@ import { Link } from "react-router-dom"
 function ErrorPage() {
     return (
         <>
-            <div>
-                <Link to='/'>Home</Link>
+            <div className="p-4 font-ttNorms text-xl">
+                <Link to='/'>⬅ Home</Link>
             </div>
-            <h1>Oops, looks like you found the error page. Anyway, here's a cool video:</h1>
+            <h1 className="text-center text-xl m-8 font-ttNorms">Oops, looks like you found the error page. Anyway, here's a cool video:</h1>
             <iframe
                 width="966"
                 height="543"
