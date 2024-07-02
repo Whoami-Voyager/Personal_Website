@@ -9,7 +9,7 @@ function Photos() {
             <p className="text-center m-8">
                 Almost all the videos created on
                 <a href="https://www.lakeofthetrees.com/camp-media/camp-media-2023" target="_blank" className="text-blue-400 hover:underline"> this page </a>
-                were made by me, yes a little homemade but I had fun with them. Excude the websites quality, I did not make it. Final Cut Pro experience.
+                were made by me, yes a little homemade but I had fun with them. Excuse the websites quality, I did not make it. Final Cut Pro experience.
             </p>
             <h2 className="text-xl m-8 text-center">Here is some of the best of my photography portfolio:</h2>
             <div className="flex flex-wrap justify-center items-center gap-4 p-4">
