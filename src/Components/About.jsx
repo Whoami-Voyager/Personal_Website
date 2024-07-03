@@ -11,9 +11,9 @@ function About() {
             <div className="flex flex-row font-ThinkDifferent">
                 <h1 className="m-12 select-none text-center text-4xl lg:text-5xl w-1/5">Jonathan McIntosh</h1>
                 <div className="flex flex-col -skew-x-12 w-full m-6 lg:mr-12">
-                    <div className="block m-0.5 bg-apple h-5 w-full"></div>
                     <div className="block m-0.5 bg-ripeMango h-5 w-full"></div>
                     <div className="block m-0.5 bg-princetonOrange h-5 w-full"></div>
+                    <div className="block m-0.5 bg-apple h-5 w-full"></div>
                     <div className="block m-0.5 bg-jasper h-5 w-full"></div>
                     <div className="block m-0.5 bg-plum h-5 w-full"></div>
                     <div className="block m-0.5 bg-richElectricBlue h-5 w-full"></div>
