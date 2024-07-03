@@ -7,9 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        apple: '#D32F2F',
+        apple: '#E53935',
         ripeMango: '#FBC02D',
-        princetonOrange: '#FFA726',
+        princetonOrange: '#FB8C00',
         jasper: '#C2185B',
         plum: '#7B1FA2',
         richElectricBlue: '#1976D2',
