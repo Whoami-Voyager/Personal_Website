@@ -52,12 +52,12 @@ function About() {
                 </p>
                 <div className="flex flex-row gap-5 lg:gap-10 items-center px-4">
                     <a href="/Resume.pdf" download="Resume.pdf">
-                        <button className="bg-appleAccent hover:scale-105 hover:-translate-y-1 text-white font-Cooper text-xl p-3 rounded transition transform duration-300">Download Resume</button>
+                        <button className="bg-appleAccent lg:hover:scale-105 lg:hover:-translate-y-1 text-white font-Cooper text-xl p-3 rounded transition transform duration-300">Download Resume</button>
                     </a>
-                    <a href="https://www.linkedin.com/in/jonathan-thomas-mcintosh/" target="_blank" className="hover:scale-105 hover:-translate-y-1 transition transform duration-300 text-5xl">
+                    <a href="https://www.linkedin.com/in/jonathan-thomas-mcintosh/" target="_blank" className="lg:hover:scale-105 lg:hover:-translate-y-1 transition transform duration-300 text-5xl">
                         <FaLinkedin />
                     </a>
-                    <a href="https://github.com/Whoami-Voyager" target="_blank" className="hover:scale-105 hover:-translate-y-1 transition transform duration-300 text-5xl">
+                    <a href="https://github.com/Whoami-Voyager" target="_blank" className="lg:hover:scale-105 lg:hover:-translate-y-1 transition transform duration-300 text-5xl">
                         <IoLogoGithub />
                     </a>
                 </div>
