@@ -7,7 +7,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 function About() {
     return (
-        <div className="bg-appleBeige min-h-screen flex flex-col">
+        <div className="bg-appleBeige h-full">
             <header className="flex flex-row font-ThinkDifferent">
                 <h1 className="m-12 select-none text-center text-4xl lg:text-5xl w-1/5">Jonathan McIntosh</h1>
                 <div className="flex flex-col -skew-x-12 w-full m-6 lg:mr-12">
@@ -20,16 +20,14 @@ function About() {
                 </div>
             </header>
             <nav className="font-ThinkDifferent m-4 flex flex-col items-center sm:flex-row sm:justify-center lg:justify-around lg:m-8">
-                <Link className="text-lg p-2 w-36 hover:text-terminalGreen hover:border-black hover:bg-black hover:scale-105 transition transform duration-100 border-4 border-appleAccent rounded-md text-center m-2" to="/coding">Coding Projects</Link>
-                <Link className="text-lg p-2 w-36 hover:text-terminalGreen hover:border-black hover:bg-black hover:scale-105 transition transform duration-100 border-4 border-appleAccent rounded-md text-center m-2" to="/photography">Photography</Link>
+                <Link className="text-lg p-2 m-2 w-36 hover:text-terminalGreen hover:border-black hover:bg-black hover:scale-105 transition transform border-4 border-appleAccent rounded-md text-center" to="/coding">Coding Projects</Link>
+                <Link className="text-lg p-2 m-2 w-36 hover:text-terminalGreen hover:border-black hover:bg-black hover:scale-105 transition transform border-4 border-appleAccent rounded-md text-center" to="/photography">Photography</Link>
             </nav>
-
             <main className="flex-grow">
                 <section className="font-ThinkDifferent bg-appleBeige">
                     <h2 className="font-Cooper text-center p-8 text-3xl md:text-4xl lg:text-5xl bg-appleBeige select-none">Projects:</h2>
                     <ProjectCard />
                 </section>
-
                 <section className="font-ThinkDifferent bg-appleBeige p-8">
                     <h2 className="font-Cooper text-center p-8 pt-12 text-3xl md:text-4xl lg:text-5xl bg-appleBeige select-none">Skills:</h2>
                     <div className="flex flex-wrap justify-center gap-6 p-4 text-4xl">
@@ -46,7 +44,6 @@ function About() {
                         <FaCamera />
                     </div>
                 </section>
-
                 <section>
                     <h2 className="font-Cooper text-center p-8 pt-12 text-3xl md:text-4xl lg:text-5xl bg-appleBeige select-none">About myself:</h2>
                     <div className="flex flex-col text-center items-center gap-4 lg:gap-12 bg-appleBeige">
@@ -69,7 +66,6 @@ function About() {
                     </div>
                 </section>
             </main>
-
             <footer className="flex justify-end text-sm pt-32 bg-appleBeige">
                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">🐇🐥🥚</a>
             </footer>
