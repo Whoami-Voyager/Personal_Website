@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Coding() {
     return (
         <>
-            <div className="p-4 text-xl font-ttNorms">
+            <div className="p-4 text-2xl font-Teko">
                 <Link to='/' className="hover:underline">⬅ Home</Link>
             </div>
             <div className="min-h-screen flex flex-col justify-center items-center mx-4 text-center">
@@ -13,7 +13,7 @@ function Coding() {
                         alt="Under Construction Icon"
                         className="w-24 h-24 md:w-32 md:h-32"
                     />
-                    <h1 className="font-ttNorms text-2xl md:text-3xl lg:text-4xl">
+                    <h1 className="font-Teko text-2xl md:text-3xl lg:text-5xl">
                         This part is under construction. Come back later.
                     </h1>
                     <img
