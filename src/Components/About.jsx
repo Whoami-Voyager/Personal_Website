@@ -47,7 +47,7 @@ function About() {
                 <section>
                     <h2 className="font-Cooper text-center p-8 pt-12 text-3xl md:text-4xl lg:text-5xl bg-appleBeige select-none">About myself:</h2>
                     <div className="flex flex-col text-center items-center gap-4 lg:gap-12 bg-appleBeige">
-                        <p className="p-8 text-xl font-ttNorms">
+                        <p className="p-8 text-3xl font-Teko">
                             Hello! I'm Jonathan McIntosh, a full stack web developer with a background in photography and videography.<br />
                             During my 15 weeks at Flatiron School, I mastered JavaScript, React, Python, Flask, and taught myself Tailwind CSS. I am a quick learner, always ready to acquire new skills.<br />
                             To view my photography and videography portfolio, click on "Photography" at the top of the page to see my work.<br />

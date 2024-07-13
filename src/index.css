@@ -17,6 +17,11 @@
     src: url(/TTNorms-Regular.otf);
 }
 
+@font-face {
+    font-family: 'Teko-Regular';
+    src: url(/Teko-Regular.ttf);
+}
+
 @media (min-width: 748px) {
     html, body, #root {
         height: 100%

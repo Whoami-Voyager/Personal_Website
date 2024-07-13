@@ -12,9 +12,9 @@ export default {
         terminalGreen: '#00FF33'
       },
       fontFamily: {
-        ThinkDifferent: ['AppleGaramond', 'sans-serif'],
+        ThinkDifferent: ['AppleGaramond', 'serif'],
         Cooper: ['CooperFive', 'sans-serif'],
-        ttNorms: ['TTnorms', 'sans-serif']
+        Teko: ['Teko-Regular', 'sans-serif']
       },
     },
   },
