@@ -1,6 +1,24 @@
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 function Photos() {
+
+    useEffect(() => {
+        const changeThemeColor = (color) => {
+            let metaThemeColor = document.querySelector("meta[name=theme-color]");
+            if (!metaThemeColor) {
+                metaThemeColor = document.createElement("meta");
+                metaThemeColor.name = "theme-color";
+                document.head.appendChild(metaThemeColor);
+            }
+            metaThemeColor.content = color;
+        };
+
+        changeThemeColor("#000000");
+
+        return () => changeThemeColor("#F4EBC3");
+    }, []);
+
     return (
         <div className="bg-black font-Teko text-white">
             <header className="p-4 text-2xl">
