@@ -28,15 +28,7 @@
     }
 }
 
-.link-container {
-    width: 100%;
-    max-width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
-
 .card {
-    @apply sm:w-1/2 md:w-2/5 lg:w-1/3 xl:w-1/4 py-12 px-6 m-6 bg-[#FAF9F6] rounded-lg overflow-hidden shadow-lg duration-300 ease-in-out lg:hover:shadow-xl lg:hover:scale-105
+    @apply sm:w-1/2 md:w-2/5 p-6 md:p-10 bg-[#FAF9F6] rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:shadow-xl hover:scale-105;
 }
 

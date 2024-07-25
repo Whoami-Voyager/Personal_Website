@@ -8,24 +8,26 @@ import { RiTailwindCssFill } from "react-icons/ri";
 function About() {
     return (
         <div className="bg-appleBeige h-full">
-            <header className="flex flex-row font-ThinkDifferent">
-                <h1 className="m-12 select-none text-center text-4xl lg:text-5xl w-1/5">Jonathan McIntosh</h1>
-                <div className="flex flex-col -skew-x-12 w-full m-6 lg:mr-12">
-                    <div className="block m-0.5 bg-[#FBC02D] h-5 w-full"></div>
-                    <div className="block m-0.5 bg-[#FB8C00] h-5 w-full"></div>
-                    <div className="block m-0.5 bg-[#E53935] h-5 w-full"></div>
-                    <div className="block m-0.5 bg-[#C2185B] h-5 w-full"></div>
-                    <div className="block m-0.5 bg-[#7B1FA2] h-5 w-full"></div>
-                    <div className="block m-0.5 bg-[#1976D2] h-5 w-full"></div>
-                </div>
-            </header>
-            <nav className="font-ThinkDifferent m-4 flex flex-col items-center sm:flex-row sm:justify-center lg:justify-around lg:m-8">
-                <Link className="text-lg p-2 m-2 w-36 hover:text-terminalGreen hover:border-black hover:bg-black hover:scale-105 transition transform border-4 border-appleAccent rounded-md text-center" to="/coding">Coding Projects</Link>
-                <Link className="text-lg p-2 m-2 w-36 hover:text-terminalGreen hover:border-black hover:bg-black hover:scale-105 transition transform border-4 border-appleAccent rounded-md text-center" to="/photography">Photography</Link>
-            </nav>
-            <main className="flex-grow">
-                <section className="font-ThinkDifferent bg-appleBeige">
-                    <h2 className="font-Cooper text-center p-8 text-3xl md:text-4xl lg:text-5xl bg-appleBeige select-none">Projects:</h2>
+            <div className="flex flex-col 2xl:flex-row w-full">
+                <header className="flex flex-row items-center font-ThinkDifferent w-full">
+                    <h1 className="m-12 select-none text-center text-4xl lg:text-5xl w-1/5">Jonathan McIntosh</h1>
+                    <div className="flex flex-col -skew-x-12 w-full m-6 lg:mr-12">
+                        <div className="block m-0.5 bg-[#FBC02D] h-5 w-full"></div>
+                        <div className="block m-0.5 bg-[#FB8C00] h-5 w-full"></div>
+                        <div className="block m-0.5 bg-[#E53935] h-5 w-full"></div>
+                        <div className="block m-0.5 bg-[#C2185B] h-5 w-full"></div>
+                        <div className="block m-0.5 bg-[#7B1FA2] h-5 w-full"></div>
+                        <div className="block m-0.5 bg-[#1976D2] h-5 w-full"></div>
+                    </div>
+                </header>
+                <nav className="font-ThinkDifferent m-4 flex flex-col items-center sm:flex-row sm:justify-center lg:justify-around lg:m-8">
+                    <Link className="text-lg p-2 m-2 w-36 hover:text-terminalGreen hover:border-black hover:bg-black hover:scale-105 transition transform border-4 border-appleAccent rounded-md text-center" to="/coding">Coding Projects</Link>
+                    <Link className="text-lg p-2 m-2 w-36 hover:text-terminalGreen hover:border-black hover:bg-black hover:scale-105 transition transform border-4 border-appleAccent rounded-md text-center" to="/photography">Photography</Link>
+                </nav>
+            </div>
+            <main className="2xl:flex 2xl:flex-grow 2xl:justify-start">
+                <section className="font-ThinkDifferent bg-appleBeige md:p-8">
+                    <h2 className="font-Cooper text-center p-8 pt-12 text-3xl md:text-4xl lg:text-5xl bg-appleBeige select-none">Projects:</h2>
                     <ProjectCard />
                 </section>
                 <section className="font-ThinkDifferent bg-appleBeige p-8">
@@ -44,9 +46,9 @@ function About() {
                         <FaCamera />
                     </div>
                 </section>
-                <section>
-                    <h2 className="font-Cooper text-center p-8 pt-12 text-3xl md:text-4xl lg:text-5xl bg-appleBeige select-none">About myself:</h2>
-                    <div className="flex flex-col text-center items-center gap-4 lg:gap-12 bg-appleBeige">
+                <section className="bg-appleBeige p-8">
+                    <h2 className="font-Cooper text-center p-8 pt-12 text-3xl md:text-4xl lg:text-5xl select-none">About myself:</h2>
+                    <div className="flex flex-col text-center items-center gap-4 lg:gap-12">
                         <p className="p-8 text-3xl font-Teko">
                             Hello! I'm Jonathan McIntosh, a full stack web developer with a background in photography and videography.<br />
                             During my 15 weeks at Flatiron School, I mastered JavaScript, React, Python, Flask, and taught myself Tailwind CSS. I am a quick learner, always ready to acquire new skills.<br />
