@@ -5,7 +5,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 function ProjectCard() {
     return (
-        <section className="flex flex-wrap justify-center gap-6 lg:gap-10">
+        <section className="flex flex-wrap justify-center gap-6 lg:gap-8">
             <article className="card">
                 <header>
                     <h1 className="text-2xl 2xl:text-3xl mb-2 font-Cooper">LandmarkLore</h1>
