@@ -33,17 +33,17 @@ function About() {
                 <section className="font-ThinkDifferent bg-appleBeige p-8">
                     <h2 className="font-Cooper text-center p-8 pt-12 text-3xl md:text-4xl lg:text-5xl bg-appleBeige select-none">Skills:</h2>
                     <div className="flex flex-wrap justify-center gap-6 p-4 text-4xl">
-                        <IoLogoJavascript className="skill"/>
-                        <FaReact  className="skill"/>
-                        <FaPython className="skill"/>
-                        <SiFlask className="skill"/>
-                        <RiTailwindCssFill className="skill"/>
-                        <FaHtml5 className="skill"/>
-                        <FaCss3Alt className="skill"/>
-                        <SiCloudinary className="skill"/>
-                        <SiLeaflet className="skill"/>
-                        <SiAdobelightroom className="skill"/>
-                        <FaCamera className="skill"/>
+                        <IoLogoJavascript className="skill" />
+                        <FaReact className="skill" />
+                        <FaPython className="skill" />
+                        <SiFlask className="skill" />
+                        <RiTailwindCssFill className="skill" />
+                        <FaHtml5 className="skill" />
+                        <FaCss3Alt className="skill" />
+                        <SiCloudinary className="skill" />
+                        <SiLeaflet className="skill" />
+                        <SiAdobelightroom className="skill" />
+                        <FaCamera className="skill" />
                     </div>
                 </section>
                 <section className="bg-appleBeige p-8">
@@ -56,12 +56,12 @@ function About() {
                         </p>
                         <div className="flex flex-row gap-5 lg:gap-10 items-center px-4">
                             <a href="/Resume.pdf" download="Resume.pdf">
-                                <button className="bg-appleAccent lg:hover:scale-105 lg:hover:-translate-y-1 text-white font-Cooper text-xl p-3 rounded transition transform duration-300">Download Resume</button>
+                                <button className="bg-appleAccent lg:hover:scale-125 lg:hover:-translate-y-1 text-white font-Cooper text-xl p-3 rounded transition transform duration-300">Download Resume</button>
                             </a>
-                            <a href="https://www.linkedin.com/in/jonathan-thomas-mcintosh/" target="_blank" className="lg:hover:scale-105 lg:hover:-translate-y-1 transition transform duration-300 text-5xl">
+                            <a href="https://www.linkedin.com/in/jonathan-thomas-mcintosh/" target="_blank" className="lg:hover:scale-125 lg:hover:-translate-y-1 transition transform duration-300 text-5xl">
                                 <FaLinkedin />
                             </a>
-                            <a href="https://github.com/Whoami-Voyager" target="_blank" className="lg:hover:scale-105 lg:hover:-translate-y-1 transition transform duration-300 text-5xl">
+                            <a href="https://github.com/Whoami-Voyager" target="_blank" className="lg:hover:scale-125 lg:hover:-translate-y-1 transition transform duration-300 text-5xl">
                                 <IoLogoGithub />
                             </a>
                         </div>
