@@ -33,21 +33,21 @@ function About() {
                 <section className="font-ThinkDifferent bg-appleBeige p-8">
                     <h2 className="font-Cooper text-center p-8 pt-12 text-3xl md:text-4xl lg:text-5xl bg-appleBeige select-none">Skills:</h2>
                     <div className="flex flex-wrap justify-center gap-6 p-4 text-4xl">
-                        <IoLogoJavascript />
-                        <FaReact />
-                        <FaPython />
-                        <SiFlask />
-                        <RiTailwindCssFill />
-                        <FaHtml5 />
-                        <FaCss3Alt />
-                        <SiCloudinary />
-                        <SiLeaflet />
-                        <SiAdobelightroom />
-                        <FaCamera />
+                        <IoLogoJavascript className="skill"/>
+                        <FaReact  className="skill"/>
+                        <FaPython className="skill"/>
+                        <SiFlask className="skill"/>
+                        <RiTailwindCssFill className="skill"/>
+                        <FaHtml5 className="skill"/>
+                        <FaCss3Alt className="skill"/>
+                        <SiCloudinary className="skill"/>
+                        <SiLeaflet className="skill"/>
+                        <SiAdobelightroom className="skill"/>
+                        <FaCamera className="skill"/>
                     </div>
                 </section>
                 <section className="bg-appleBeige p-8">
-                    <h2 className="font-Cooper text-center p-8 pt-12 text-3xl md:text-4xl lg:text-5xl select-none">About myself:</h2>
+                    <h2 className="font-Cooper text-center p-8 pt-12 text-3xl md:text-4xl lg:text-5xl select-none">About Myself:</h2>
                     <div className="flex flex-col text-center items-center gap-4 lg:gap-12">
                         <p className="p-8 text-3xl font-Teko">
                             Hello! I'm Jonathan McIntosh, a full stack web developer with a background in photography and videography.<br />
@@ -68,7 +68,7 @@ function About() {
                     </div>
                 </section>
             </main>
-            <footer className="flex justify-end text-sm pt-32 bg-appleBeige">
+            <footer className="flex justify-end text-sm pt-24 bg-appleBeige">
                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">🐇🐥🥚</a>
             </footer>
         </div>
