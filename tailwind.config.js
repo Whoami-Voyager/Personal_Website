@@ -16,6 +16,9 @@ export default {
         Cooper: ['CooperFive', 'sans-serif'],
         Teko: ['Teko-Regular', 'sans-serif']
       },
+      screens: {
+        '3xl': '2000px',
+      },
     },
   },
   plugins: [],
