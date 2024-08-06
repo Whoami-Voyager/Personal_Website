@@ -68,7 +68,7 @@ function About() {
                     </div>
                 </section>
             </main>
-            <footer className="flex justify-end text-sm pt-24 bg-appleBeige">
+            <footer className="flex justify-end text-sm pt-10 bg-appleBeige">
                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">🐇🐥🥚</a>
             </footer>
         </div>
