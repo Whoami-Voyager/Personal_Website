@@ -6,6 +6,21 @@ import { FaReact, FaPython, FaHtml5, FaCss3Alt, FaCamera, FaLinkedin } from "rea
 import { RiTailwindCssFill } from "react-icons/ri";
 
 function About() {
+    console.log(`
+        ______________
+       | ____________ |
+       ||            ||
+       ||  Hello,    ||
+       ||  World!    ||
+       ||            ||
+       ||____________||
+       |     ----     |
+       |   |    |  O  |
+       |   |    |     |
+       |______________|
+   `);
+   console.log("Hope you enjoy the website!")
+
     return (
         <div className="bg-appleBeige h-full">
             <header className="flex flex-col 2xl:flex-row w-full">
