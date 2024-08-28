@@ -6,6 +6,7 @@ import { FaReact, FaPython, FaHtml5, FaCss3Alt, FaCamera, FaLinkedin } from "rea
 import { RiTailwindCssFill } from "react-icons/ri";
 
 function About() {
+    
     console.log(`
         ______________
        | ____________ |
