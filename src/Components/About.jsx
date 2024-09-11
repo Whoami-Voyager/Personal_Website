@@ -7,6 +7,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 function About() {
     
+    console.clear()
     console.log(`
         ______________
        | ____________ |
